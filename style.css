@@ -1,0 +1,114 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #f5f5f5; /* Set a very light background color */
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+h1#header {
+    font-size: 36px;
+    text-align: center;
+    color: #0078d4;
+    margin: 20px 0;
+    text-transform: uppercase;
+}
+
+/* ... Remaining styles ... */
+
+.week {
+    margin-top: 20px;
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.week-heading {
+    background-color: #f5f5f5;
+    padding: 10px 15px;
+    border-radius: 5px 5px 0 0;
+}
+
+.week-number {
+    font-weight: bold;
+    font-size: 20px;
+    color: #333;
+}
+
+.topics {
+    font-weight: bold;
+    margin-left: 10px;
+    color: #555;
+}
+
+/* Week Extras Styles */
+.week-extras p {
+    display: inline-block;
+    margin-left: 70px;
+}
+
+.bg-color1 {
+    background-color: #ffcccb;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: #333;
+}
+
+.bg-color2 {
+    background-color: #c9f7c5;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: #333;
+}
+
+.bg-color3 {
+    background-color: #a2cffe;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: #333;
+}
+
+.bg-color4 {
+    background-color: #ffd700;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: #333;
+}
+
+
+
+.week-extras p span:hover {
+    background-color: #444141;
+    color: #fff;
+}
+
+/* Additional Styling */
+a {
+    color: #0078d4;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.week-extras p span {
+    display: inline-block;
+    margin-right: 20px; /* Add space between "week extras" contents */
+    padding: 5px 10px; /* Add padding for better spacing */
+    border-radius: 5px;
+    color: #333;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* ... Remaining styles ... */
